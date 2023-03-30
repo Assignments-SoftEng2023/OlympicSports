@@ -15,6 +15,7 @@ public class Player {
     private String firstName;
     private String lastName;
     private List<NSF> nList;
+    NSF nsf;
 
     public Player(String firstName, String lastName){
         this.firstName = firstName;

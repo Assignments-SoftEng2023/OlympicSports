@@ -15,6 +15,7 @@ public class NSF extends ISF{
     public String sport;
     public String country;
     private List<Player> pList;
+    Player player;
 
 
     public NSF(String sport, String country){
