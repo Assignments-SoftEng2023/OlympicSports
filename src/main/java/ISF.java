@@ -13,7 +13,7 @@ public class ISF extends IOC{
     private List<NSF> nList;
     private NSF nsf;
 
-    public ISF(String name){
+    public ISF(){
         super();
         this.name = name;
     }

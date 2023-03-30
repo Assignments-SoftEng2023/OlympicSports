@@ -11,13 +11,14 @@ import java.util.List;
  *  For example: United States Tennis players: Serena Williams, Roger Federer, Martina Navratilova
  * Do not include a comma at the end of the lists
  */
-public class NSF {
+public class NSF extends ISF{
     public String sport;
     public String country;
     private List<Player> pList;
 
 
     public NSF(String sport, String country){
+        super();
         this.sport = sport;
         this.country = country;
     }
