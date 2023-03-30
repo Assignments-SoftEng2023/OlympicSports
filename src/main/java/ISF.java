@@ -8,14 +8,14 @@ import java.util.List;
  * Federations (NSFs). Players are counted multiple times if they are registered under more than
  * one NSF
  */
-public class ISF extends IOC{
+public class ISF{
     private String name;
     private List<NSF> nList;
     private NSF nsf;
 
-    public ISF(){
-        super();
+    public ISF(String name){
         this.name = name;
+        nList = null;
     }
     public String getName(){
         return name;

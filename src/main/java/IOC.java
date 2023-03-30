@@ -10,8 +10,9 @@ public class IOC {
     private String name;
     private List<ISF> iList;
 
-    public IOC(){
+    public IOC(String name){
         this.name = name;
+        iList = null;
     }
     public String getName(){
         return name;

@@ -20,7 +20,9 @@ public class Player {
     public Player(String firstName, String lastName){
         this.firstName = firstName;
         this.lastName = lastName;
+        nList = null;
     }
+
     public String getFirstName(){
         return firstName;
     }
