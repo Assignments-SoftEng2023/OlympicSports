@@ -11,20 +11,19 @@ public class IOC {
     private List<ISF> iList;
 
     public IOC(String name){
-        this.name = name;
+        setName(name);
         iList = null;
     }
     public String getName(){
         return name;
     }
     public void setName(String name){
-
+        this.name = name;
     }
     public List<ISF> getISF(){
         return iList;
     }
-    public List<ISF> setISF(List<ISF> ISFs){
-        return iList;
+    public void setISF(List<ISF> ISFs){
     }
     public int countNSFs(){
         return 0;

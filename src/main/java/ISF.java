@@ -14,14 +14,14 @@ public class ISF{
     private NSF nsf;
 
     public ISF(String name){
-        this.name = name;
+        setName(name);
         nList = null;
     }
     public String getName(){
         return name;
     }
     public void setName(String name){
-
+        this.name = name;
     }
     public List<NSF> getNSFs(){
         return nList;

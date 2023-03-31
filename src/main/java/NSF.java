@@ -19,21 +19,21 @@ public class NSF{
 
 
     public NSF(String sport, String country){
-        this.sport = sport;
-        this.country = country;
+        setSport(sport);
+        setCountry(country);
         pList = null;
     }
     public String getSport(){
         return sport;
     }
     public void setSport(String sport){
-
+        this.sport = sport;
     }
     public String getCountry(){
         return sport;
     }
     public void setCountry(String country){
-
+        this.country = country;
     }
     public List<Player> getNSF(){
         return pList;

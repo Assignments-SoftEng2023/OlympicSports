@@ -1,3 +1,4 @@
+import java.util.List;
 
 public class OlympicSports {
 
@@ -13,7 +14,7 @@ public class OlympicSports {
      *  g. For two players, display the NSFs they are in. Make sure at they are each registered for more
      * than one NSF.
      *  h. Display the total number of players registered with NSFs in each ISF, and in the IOC
-     *  i. Display the total number of NSFs in each ISF and and in the IOC
+     *  i. Display the total number of NSFs in each ISF and in the IOC
      *
      * @param args
      */
@@ -23,7 +24,7 @@ public class OlympicSports {
         IOC ioc1 = new IOC("North American IOC");
             ISF isf1 = new ISF("Baseball sport federation");
                 NSF nsf1 = new NSF("Baseball", "United States");
-                    Player plr1 = new Player("Hunter", "Poulin");
+                    Player plr1 = new Player("Laurie", "Leshin");
                 NSF nsf2 = new NSF("Baseball", "Argentina");
                     Player plr2 = new Player("Ian", "Wright");
                 NSF nsf3 = new NSF("Baseball", "New Mexico");
